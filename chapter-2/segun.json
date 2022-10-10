@@ -1,0 +1,15 @@
+{
+     "age": 22,
+     "girlfriend": false,
+     "job": "technical writer",
+     "name": "segun",
+     "shoes he wants": [
+          {
+               "adiddas": "i dont know yet",
+               "nike": [
+                    "airforce",
+                    "jordan1"
+               ]
+          }
+     ]
+}

@@ -24,7 +24,7 @@ in the word smogtether capitalized.'''
 list = ['watermelon is good', 'mango is not so good', 'apple is the best', 'pineapple, i like it average']
 new_list = []
 for fruit in list:
-    new_list = fruit.replace(" ", "").upper()
+    new_list.append(fruit.replace(" ", "").upper())
     print(new_list)
 
 

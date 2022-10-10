@@ -1,0 +1,11 @@
+vars:
+  hhtps_ports: 80
+  max_clients: 200
+remotes_user: toor
+tasks:
+   name:
+     - ensure appacge is at the latest version
+     - this is me testing
+   yum:
+     name: hhtpd
+     state: latest
