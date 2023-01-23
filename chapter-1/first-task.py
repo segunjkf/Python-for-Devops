@@ -22,12 +22,26 @@ upper = string("segun")
 in the word smogtether capitalized.'''
 
 list = ['watermelon is good', 'mango is not so good', 'apple is the best', 'pineapple, i like it average']
-new_list = []
-for fruit in list:
-    new_list.append(fruit.replace(" ", "").upper())
-    print(new_list)
+word = 'smogtether'
+
+compre = [x for x in word.upper()]
+
+print(compre)
 
 
 '''Write a generator that alternates between returning Even and
 Odd.'''
+
+def alternating_numbers():
+    even = True
+    num = 0
+    while True:
+        if even:
+            yield num
+            even = False
+        else:
+            yield num + 1
+            even = True
+            num += 1
+
 
